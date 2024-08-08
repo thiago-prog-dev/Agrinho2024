@@ -1,0 +1,61 @@
+
+body {
+    background-color: #171717;
+    font-family: "Raleway", sans-serif;font-optical-sizing: auto;font-weight: weight;font-style: normal;
+}
+
+
+img {
+    width: 250px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.login {
+    
+    border-radius: 10px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding: 10px;
+    margin: 10px;
+}
+
+h1 {
+    color: green;
+}
+
+input {
+    background-color: rgb(221, 217, 211);
+    border-radius: 8px;
+    border-color: #171717;
+    width: 250px;
+    height: 30px;
+    padding-left: 15px;
+}
+
+p {
+    font-weight: 700;
+    color: green;
+}
+
+h4 {
+    color: aqua;
+}
+
+a {
+    text-decoration: none;
+    color:darkcyan ;
+}
+
+button {
+    cursor: pointer;
+    background-color: aquamarine;
+    border-radius: 10px;
+    border: none;
+    width: 150px;
+    height: 30px; 
+    font-weight: 750;
+}
+

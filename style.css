@@ -1,0 +1,338 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: gainsboro;
+}
+
+:root {
+    --cor-texto-principal: #000000;
+    --cor-secundaria: #ffffff;
+    --cor-verde: #148807;
+    --cor-subtitulo: #061541;
+    --cor-texto-secundario: #f5f5f5c7;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: rgb(24,36,0);
+    background: linear-gradient(90deg, rgba(24,36,0,1) 0%, rgba(9,121,28,1) 0%, rgba(76,242,67,1) 100%);
+    font-family: "Raleway", sans-serif;font-optical-sizing: auto;font-weight: weight;font-style: normal; 
+    padding-bottom: 10px;  
+}
+
+.titulo-principal{
+    text-align: center;
+    font-size: 100px;
+    color: var(--cor-secundaria);
+}
+
+.subtitulo {
+    margin-left: 120px;
+    color: var(--cor-subtitulo);
+}
+
+
+.botoes {
+    margin-left: 100px;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.link {
+    text-decoration: none;
+    color: var(--cor-texto-principal);
+}
+
+.Login, .Cadastro {
+    padding: 8px 16px;
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 10px;
+    box-shadow: 0 5px 5px 0;
+    cursor: pointer;
+    background-color: rgb(30, 165, 228);
+    
+}
+
+.Login:hover {
+    font-size: 18px;
+    transition: 0.6s;
+    background-color: var(--cor-secundaria); 
+}
+
+.Cadastro:hover {
+    font-size: 18px;
+    transition: 0.5s;
+    background-color: var(--cor-secundaria); 
+}
+
+.logo-conta {
+    cursor: pointer;
+}
+
+hr{
+    border-color: #154b0f;
+    box-sizing:border-box;
+    width:100%;
+  }
+
+nav {
+    border-radius: 0 0 15px 15px;
+    background: rgb(24,36,0);
+    background: linear-gradient(90deg, rgba(24,36,0,1) 0%, rgba(9,121,28,1) 0%, rgba(76,242,67,1) 100%);
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 20px;
+    box-shadow: 0 5px 5px 0;
+}
+
+.navegaçao {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 3rem;
+} 
+
+ul li a{
+    color: rgb(2,0,36);
+    font-size: 20px;
+    
+}
+
+.link2:hover {
+    font-size: 25px;
+    color: #ffffff;
+    transition: 0.6s;
+}
+
+p {
+    font-size: 16px;
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 1.5;
+    word-wrap: break-word;
+}
+
+.Paraná {
+    color: var(--cor-verde);
+}
+
+.conteiner-1 {
+    border-radius: 10px;
+    margin:40px 90px;
+    background-color: var(--cor-secundaria);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    
+}
+
+.titulo-2 {
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;   
+}
+
+.conteiner-2 {
+    border-radius: 10px;
+    margin:40px 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    
+}
+
+.conteiner-3 {
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    margin:40px 90px;
+    background-color: var(--cor-secundaria);
+    padding: 40px;
+}
+
+.titulo-3 {
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;   
+}
+
+.img-agrinho {
+    width: 400px;
+    margin: 0 30px 0 30px;
+    border-radius: 10px;
+}
+
+.link3 {
+    color: var(--cor-verde);
+}
+
+.logo-seed {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    background-color: #171717;
+    padding: 2rem;
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;   
+}
+
+
+.footer_contato {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    color: #f5f5f5b6;
+}
+
+.footer_contato h1, p{
+    margin: 10px;
+}
+
+.footer_icones {
+    display: flex;
+    gap: 1rem;
+    margin-top: 20px;
+    
+}
+
+.footer-links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    height: 2.5rem;
+    width: 2.5rem;
+    text-decoration: none;
+}
+
+#instagram {
+    color: var(--cor-texto-secundario);
+    background: linear-gradient(#7f37c9, #ff2992, #ff9807 );
+}
+
+#facebook {
+    color: var(--cor-texto-secundario);
+    background-color: #0b2e96;
+}
+
+#whatsapp {
+    color: var(--cor-texto-secundario);
+    background-color: #148807;
+}
+
+#youtube {
+    color: var(--cor-texto-secundario);
+    background-color: #bd0909;
+}
+
+.footer_lista {
+    list-style: none;
+}
+
+.footer_lista a{
+    text-decoration: none;
+    color: #f5f5f5;
+}
+
+.footer_lista li {
+    margin: 15px;
+}
+
+
+.mensagem {
+    border-radius: 15px;
+    border: none;
+    padding: 40px;
+}
+
+.footer_mensagem a {
+    color: var(--cor-verde);
+}
+
+.footer_mensagem button{
+    border: none;
+    border-radius: 10px;
+    background-color: #7f37c9;
+    color: var(--cor-texto-secundario);
+    padding: 0.7em;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.footer-copy {
+    display: flex;
+    justify-content: center;
+    color: var(--cor-secundaria);
+}
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .titulo-principal {
+        font-size: 2rem;
+    }
+
+    .subtitulo {
+        font-size: 1rem;
+        margin-left: 0;
+    }
+
+    .botoes {
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0;
+    }
+
+    .navegaçao {
+        flex-direction: column;
+        align-items: center;
+        padding: 1em;
+    }
+
+    .conteiner-1 {
+        padding: 20px;
+    }
+
+    .img-agrinho{
+        width: 110px;
+        height: 80px;
+    }
+
+    .conteiner-3 {
+        text-align: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer_contato {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .footer_icones {
+        justify-content: center;
+    }
+
+    .footer_lista, .footer_mensagem {
+        margin-top: 20px;
+    }
+
+    .footer_mensagem input {
+        width: 48%;
+    }
+}
