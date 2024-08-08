@@ -277,12 +277,17 @@ footer {
     color: var(--cor-secundaria);
 }
 
-@media (min-width: 200px) {
+@media (max-width: 768px) {
     header {
         flex-direction: column;
         align-items: center;
+       
     }
 
+    .logo-conta{
+        margin-top: 20px;
+    }
+    
     .titulo-principal {
         font-size: 2rem;
     }
@@ -299,10 +304,12 @@ footer {
     }
 
     .navegaçao {
+        display: flex;
         flex-direction: column;
         align-items: center;
-        padding: 1em;
+        gap: 10px;
     }
+    
 
     .conteiner-1 {
         padding: 20px;
@@ -314,10 +321,12 @@ footer {
     }
 
     .conteiner-3 {
+        background-color: gainsboro;
+        display: flex;
+        padding: auto;
         text-align: center;
         flex-direction: column;
         align-items: center;
-        margin: 30px 20px;
     }
 
     .footer_contato {
